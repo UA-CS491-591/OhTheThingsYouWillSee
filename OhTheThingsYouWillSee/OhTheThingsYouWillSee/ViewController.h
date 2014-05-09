@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "House.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, HouseDelegate, UIAlertViewDelegate>
 
 @end

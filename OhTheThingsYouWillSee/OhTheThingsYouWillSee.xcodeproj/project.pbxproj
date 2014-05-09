@@ -21,6 +21,7 @@
 		1FBCE0AE191D11ED0065E3BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FBCE090191D11ED0065E3BB /* UIKit.framework */; };
 		1FBCE0B6191D11ED0065E3BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FBCE0B4191D11ED0065E3BB /* InfoPlist.strings */; };
 		1FBCE0B8191D11ED0065E3BB /* OhTheThingsYouWillSeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBCE0B7191D11ED0065E3BB /* OhTheThingsYouWillSeeTests.m */; };
+		868F9F51191D20B1005C809B /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F9F50191D20B1005C809B /* House.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1FBCE0B3191D11ED0065E3BB /* OhTheThingsYouWillSeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OhTheThingsYouWillSeeTests-Info.plist"; sourceTree = "<group>"; };
 		1FBCE0B5191D11ED0065E3BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FBCE0B7191D11ED0065E3BB /* OhTheThingsYouWillSeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhTheThingsYouWillSeeTests.m; sourceTree = "<group>"; };
+		868F9F4F191D20B1005C809B /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		868F9F50191D20B1005C809B /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,9 @@
 				1FBCE09B191D11ED0065E3BB /* AppDelegate.h */,
 				1FBCE09C191D11ED0065E3BB /* AppDelegate.m */,
 				1FBCE09E191D11ED0065E3BB /* Main.storyboard */,
-				1FBCE0A1191D11ED0065E3BB /* ViewController.h */,
-				1FBCE0A2191D11ED0065E3BB /* ViewController.m */,
+				868F9F4C191D1605005C809B /* Models */,
+				868F9F4D191D1611005C809B /* Views */,
+				868F9F4E191D161A005C809B /* Controllers */,
 				1FBCE0A4191D11ED0065E3BB /* Images.xcassets */,
 				1FBCE093191D11ED0065E3BB /* Supporting Files */,
 			);
@@ -150,6 +154,31 @@
 				1FBCE0B4191D11ED0065E3BB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		868F9F4C191D1605005C809B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				868F9F4F191D20B1005C809B /* House.h */,
+				868F9F50191D20B1005C809B /* House.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		868F9F4D191D1611005C809B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		868F9F4E191D161A005C809B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FBCE0A1191D11ED0065E3BB /* ViewController.h */,
+				1FBCE0A2191D11ED0065E3BB /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +280,7 @@
 			files = (
 				1FBCE0A3191D11ED0065E3BB /* ViewController.m in Sources */,
 				1FBCE09D191D11ED0065E3BB /* AppDelegate.m in Sources */,
+				868F9F51191D20B1005C809B /* House.m in Sources */,
 				1FBCE099191D11ED0065E3BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +486,7 @@
 				1FBCE0BD191D11ED0065E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FBCE0BE191D11ED0065E3BB /* Build configuration list for PBXNativeTarget "OhTheThingsYouWillSeeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				1FBCE0C0191D11ED0065E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
